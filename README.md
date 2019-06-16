@@ -17,4 +17,22 @@ nvm for those are used to Javascript
 exe file
 
 After installation Rust toolchain can be **upgraded** by using the following
-command: `rustup update`
+command: `rustup update`  
+To **uninstall** Rust and rustup: `rustup self uninstall`
+
+## Hello World
+
+To compile a Rust program we can use `rustc main.rs` this will create a
+executable file that can be run
+
+### Cargo
+
+Cargo is Rust's build system and packet manager, creating a new project with
+it is very simple `cargo new <app_name> --bin` or `cargo new <lib_name> --lib`
+
+#### Useful Cargo commands
+
+- `cargo run` runs the program without create the executable
+- `cargo build` build an executable (debug mode) that you can run later
+- `cargo build --release` build an executable (release mode) that you can run later
+- `cargo check` check only if the program compiles
