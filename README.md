@@ -38,3 +38,19 @@ it is very simple `cargo new <app_name> --bin` or `cargo new <lib_name> --lib`
 - `cargo check` check only if the program compiles
 - `cargo upgrade` when in Cargo.toml you update a dependency run this
 - `cargo doc --open` generate the doc for your crate so you can check which method call
+
+## What I learned building guessing_game
+
+Guessing game chapter was a pretty fun experience where I learned a lot, for example
+
+- Declaring variables with `let` 
+- Declaring variables with  `let mut`
+- Use an external crate `use` keyword
+- Compare two variables `guess.cmp(&secret_number)`, remember to import
+`std::cmp::Ordering` because needed
+- Parse a String to another type `let guess: u32 = guess.trim().parse()`,
+remember type annotation is needed
+- Use shadowing to take the same variable name (ex after parsing) we don't
+need to define other variables like guess_int
+- match is like switch but doesn't need default or break because it doesn't
+fall through
