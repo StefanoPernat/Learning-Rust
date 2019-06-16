@@ -43,8 +43,8 @@ it is very simple `cargo new <app_name> --bin` or `cargo new <lib_name> --lib`
 
 Guessing game chapter was a pretty fun experience where I learned a lot, for example
 
-- Declaring variables with `let` 
-- Declaring variables with  `let mut`
+- Declaring variables with `let`
+- Declaring mutable variables with  `let mut`
 - Use an external crate `use` keyword
 - Compare two variables `guess.cmp(&secret_number)`, remember to import
 `std::cmp::Ordering` because needed
