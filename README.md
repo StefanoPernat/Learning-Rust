@@ -36,3 +36,5 @@ it is very simple `cargo new <app_name> --bin` or `cargo new <lib_name> --lib`
 - `cargo build` build an executable (debug mode) that you can run later
 - `cargo build --release` build an executable (release mode) that you can run later
 - `cargo check` check only if the program compiles
+- `cargo upgrade` when in Cargo.toml you update a dependency run this
+- `cargo doc --open` generate the doc for your crate so you can check which method call
